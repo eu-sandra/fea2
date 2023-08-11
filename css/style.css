@@ -1,0 +1,525 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+/* cor dos títulos*/
+
+h1,
+h2,
+h3 {
+  color: #f7e307;
+}
+
+.fs-4 {
+  font-size: 1.1rem !important;
+}
+
+.fs-5 {
+  font-size: 1.1rem !important;
+}
+
+i.bi.bi {
+  color: #f7e307;
+}
+
+/* cor do backgroud e cor do texto*/
+
+#header,
+.dark .card-body,
+.dark .card-title,
+.dark .card-text .card-body,
+.card-text,
+.card-body1 .dark .container,
+.dark .card,
+.accordion-body,
+.list-group,
+.list-group-item,
+.container a,
+.card a,
+.container,
+body.dark {
+  background-color: #000000;
+  border-color: #000000;
+  color: #ffffff;
+}
+
+section#trajetoria .list-group-item,
+.accordion-body {
+  border: 1px solid #000;
+}
+
+section#inicio span#subtitle {
+  font-size: 2.3rem;
+  color: #f7e307;
+  margin-right: -100;
+  font-weight: bold;
+}
+
+section#quemsomos span#subtitle {
+  font-size: 5rem;
+  color: #fff;
+  font-weight: bold;
+
+}
+
+/* corpo */
+
+section#estrutura .linha h5,
+.linha p {
+  display: inline;
+}
+
+body {
+  font-family: Ubuntu, Arial;
+  width: 100%;
+  height: 100%;
+}
+
+#header {
+  /* formatação do menu */
+  position: fixed;
+  /* para ficar fixo a esquerda */
+  top: 0;
+  /* preso na topo */
+  left: 0;
+  /* preso na esquerda */
+  bottom: 0;
+  /* preso embaixo */
+  overflow-y: auto;
+  /* formatação do menu */
+  width: 300px;
+  transition: all ease-in-out 0.5s;
+  padding: 0 15px;
+  z-index: 9997;
+}
+
+#header .profile img {
+  /* formatação da imagem do profile menu  */
+  margin: 15px auto;
+  display: block;
+  width: 200px;
+  border: 8px solid #000000;
+  /*border-radius: 50%;  /* imagem rendonda */
+}
+
+#header .profile img {
+  /* formatação da imagem do profile menu  */
+  margin: 0px auto;
+  display: block;
+  width: 140px;
+  border: 8px solid #000000;
+  /*border-radius: 50%;  /* imagem rendonda */
+}
+
+#header .profile h1 {
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  text-align: center;
+  color: #fffffa;
+}
+
+.social-links.mt-4 {
+  text-align: center;
+  margin: 8px !important;
+}
+
+#header .profile .social-links a {
+  font-size: 1.7rem;
+  color: #F7E607;
+  padding: 0.2rem;
+  /*border-radius: 50%; */
+  transition: 0.3s;
+  text-decoration: none;
+
+}
+
+.nav-menu a,
+.nav-menu a:focus {
+  align-items: center;
+  transition: 0.3s;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.nav-menu a:hover,
+.nav-menu .active:focus,
+.nav-menu li:hover>a {
+  text-decoration: none;
+  color: #F7E607;
+  transform: scale(1.1);
+}
+
+
+#main {
+  margin-left: 300px;
+}
+
+section#inicio {
+  background-image: url("./img/Imagem\ inicial\ 1.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+
+section#inicio h2 {
+  font-size: 9rem;
+  color: #f7e307;
+}
+
+a .nav-menu {
+  text-decoration-color: #F7E607;
+}
+
+section#inicio div#arraste {
+  width: 20rem;
+}
+
+section#inicio div#arrow {
+  font-size: 1.7rem;
+  margin-right: 2.5rem;
+  transition: 0.3s;
+  margin-bottom: 4rem;
+}
+
+
+section#inicio div#arraste a {
+  text-decoration: none;
+  color: #fff;
+  Font-size: 1.5rem;
+  margin-right: 2px;
+  margin-bottom: 4rem;
+
+}
+
+section#estrutura .card-img-top {
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  float: center;
+}
+
+section#grupodeestudo .card-img-top {
+  width: 75%;
+  border-style: solid;
+  color: #8a8977;
+  border-radius: 5px;
+  display: flex;
+}
+
+section#quemsomos .img-fluid {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  display: block;
+  /* Definir como bloco para usar margens */
+  margin: auto;
+  /* Define margens automáticas para centralizar horizontalmente */
+  text-align: center;
+  /* Centraliza o conteúdo dentro do contêiner */
+  padding-bottom: 1.7rem;
+}
+
+
+section#estrutura .card {
+  display: flex;
+  width: 200px;
+  /* Largura desejada */
+  height: 200px;
+  /* Altura desejada */
+}
+
+
+section#estrutura .card-body {
+  float: center;
+  margin: 1rem;
+
+}
+
+section#estrutura .custom-mb {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 7rem;
+  /* Ajuste o valor conforme necessário */
+}
+
+
+section#trajetoria .year-2019 {
+  background-color: #F7E607;
+  /* Altere a cor desejada para o ano 2019 */
+  color: 4px 4px 10px #000000;
+}
+
+.year-2020,
+.year-2021,
+.year-2022,
+.year-2023 {
+  background-color: #F7E607;
+  /* Altere a cor desejada para o ano 2020 */
+  color: 4px 4px 10px #000000;
+}
+
+
+.accordion-button:not(.collapsed) {
+  color: rgb(0, 0, 0);
+  /* Altere a cor desejada para a fonte quando o accordion estiver aberto */
+  background-color: #F7E607;
+  /* Altere a cor de fundo desejada quando o accordion estiver aberto */
+}
+
+.accordion-item.show {
+  background-color: #F7E607;
+  /* Altere a cor de fundo desejada quando o accordion estiver aberto */
+}
+
+
+div .row .col{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+
+}
+
+
+div .row p {
+  text-align: center;
+}
+
+.menu-mobile {
+  position: fixed;
+  color: black;
+  background-color: #F7E607;
+  right: 1rem;
+  top: 1rem;
+  font-size: 1.5rem;
+  border-radius: 4rem;
+  cursor: pointer;
+  z-index: 10;
+  width: 45px;
+  height: 45px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-nav-active #header {
+  left: 0;
+}
+
+/* Estilos dos controles de acessibilidade */
+.accessibility-controls {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Estilos adicionais para realçar o contraste */
+.contrast-active {
+  filter: invert(100%);
+}
+
+
+
+@media (max-width: 1024px) {
+
+  /* a patir de 1024px ele vai mostrar o menu */
+  #header {
+    left: -300px;
+    width: 275px;
+    padding: 8px;
+  }
+
+  nav{
+    padding: 1rem;
+  }
+
+
+  #header .profile img {
+    /* formatação da imagem do profile menu  */
+    margin: 0px auto;
+    display: block;
+    width: 140px;
+    border: 8px solid #000000;
+    /*border-radius: 50%;  /* imagem rendonda */
+  }
+
+  #header .profile h1 {
+    font-size: 3rem;
+    margin: -2rem;
+    padding: 0;
+    font-weight: 500;
+    text-align: center;
+    color: #fffffa;
+  }
+
+  #header .profile .social-links a {
+    font-size: 1.7rem;
+    background: #000000;
+    color: #F7E607;
+    padding: 0.1rem;
+    margin-right: 1rem;
+    /*border-radius: 50%; */
+    transition: 0.3s;
+    text-decoration: none;
+    margin: 0px auto;
+  }
+
+  i.menu-mobile {
+    display: flex;
+  }
+
+  section#inicio h2 {
+    font-size: 5rem;
+  }
+
+  section#inicio span {
+    font-size: 5rem;
+    color: #f7e307;
+  }
+
+  section#inicio span#subtitle {
+    margin-right: 0;
+    font-size: 1rem;
+    color: #f7e307;
+  }
+
+  #navbar {
+    margin: -2rem;
+    font-size: 2rem;
+  }
+
+  #main {
+    margin-left: 0;
+  }
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  width: 12px;
+  box-shadow: inset 0 0 .3rem #00000050;
+  background-color: #fff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #f7e307;
+}
+
+.section-bg {
+  background-color: #7a6c271c;
+}
+
+.cv .cv-title {
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #050d18;
+}
+
+.cv .cv-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #f7e307;
+  position: relative;
+}
+
+.cv .cv-item h4 {
+  line-height: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+  margin-bottom: 10px;
+}
+
+.cv .cv-item h5 {
+  background: #F7E607;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.cv .cv-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -9px;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #f7e307;
+  background: #fff;
+  border-radius: 50%;
+}
+
+/* Animação */
+
+[data-anime] {
+  opacity: 0;
+  transition: 1s;
+}
+
+[data-anime="down"] {
+  transform: translate3d(0, -100%, 0);
+}
+
+[data-anime="up"] {
+  transform: translate3d(0, 100%, 0);
+}
+
+[data-anime="left"] {
+  transform: translate3d(-100%, 0, 0);
+}
+
+[data-anime="right"] {
+  transform: translate3d(50px, 0, 0);
+}
+
+[data-anime].animate {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+@media (max-width: 1860px) {
+  [data-anime="right"] {
+    transform: translate3d(0, 100%, 0);
+  }
+}
+
+#btn-enviar-loader {
+  display: none;
+}
+
+#alerta {
+  position: fixed;
+  z-index: 10;
+  top: 30px;
+  right: 30px;
+}
+
+#contato .container .row .social-links a {
+  font-size: 1rem;
+  background: #000000;
+  color: #F7E607;
+  padding: 0.6rem;
+  margin-right: 1rem;
+  border-radius: 50%;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+#main .flash-message p.success {
+  color: #F7E607;
+  /* Defina a cor desejada para a mensagem de sucesso, como verde */
+}
